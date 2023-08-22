@@ -1,0 +1,496 @@
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@500;300;700;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --primeira-cor: #FEEB84;
+    --segunda-cor: #000000;
+    --terceira-cor: #FFFFFF;
+    --quarta-cor: #AEAEAE;
+
+    --primeira-fonte: 'Martian Mono', monospace;
+}
+
+body {
+    background-color: var(--terceira-cor);
+    color: var(--segunda-cor);
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 0;
+    margin: 0 5rem;
+}
+
+.logo h1 {
+    color: var(--segunda-cor);
+    font-family: var(--primeira-fonte);
+    font-size: 1.5rem;
+}
+
+.cabecalho_menu ul {
+    list-style: none;
+    display: flex;
+}
+
+.cabecalho_menu li {
+    margin: 0 1.5rem;
+}
+
+.cabecalho_menu a {
+    color: var(--segunda-cor);
+    font-family: var(--primeira-fonte);
+    font-size: 1rem;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+.cabecalho_menu a:hover {
+    font-weight: bold;
+}
+
+.cabecalho_botao {
+    text-align: right;
+}
+
+.cabecalho_botao a {
+    background-color: var(--segunda-cor);
+    color: var(--terceira-cor);
+    font-family: var(--primeira-fonte);
+    font-size: 1rem;
+    font-weight: 300;
+    text-decoration: none;
+    border: 0.1rem solid var(--segunda-cor);
+    padding: 0.3rem 1rem;
+}
+
+.cabecalho_botao a:hover {
+    background-color: var(--terceira-cor);
+    color: var(--segunda-cor);
+    font-family: var(--primeira-fonte);
+    font-size: 1rem;
+    font-weight: 300;
+    text-decoration: none;
+    border: 0.1rem solid var(--segunda-cor);
+    padding: 0.3rem 1rem;
+}
+
+.secao1 {
+    display: flex;
+    flex-direction: row;
+    margin: 0 5rem;
+}
+
+.secao1_titulo {
+    background-image: url(../assets/laranja_com_gelo.png);
+    background-size: contain;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    width: 60rem;
+}
+
+.secao1_titulo h1 {
+    display: flex;
+    flex-flow: row wrap;
+    width: 55rem;
+    margin-top: 10rem;
+}
+
+.secao1_titulo_parte1 {
+    color: var(--segunda-cor);
+    font-family: var(--primeira-fonte);
+    font-size: 8.2rem;
+    font-weight: 600;
+}
+
+.secao1_titulo_parte2 {
+    display: flex;
+    color: var(--terceira-cor);
+    font-family: var(--primeira-fonte);
+    font-size: 8.2rem;
+    font-weight: 600;
+    align-content: center;
+}
+
+.secao1_texto1 {
+    margin-top: 6.8rem;
+    width: 15rem;
+    color: var(--segunda-cor);
+    font-family: var(--primeira-fonte);
+}
+
+.secao1_titulo h4 {
+    font-weight: 700;
+    font-size: 1.3rem;
+
+}
+
+.secao1_titulo p {
+    font-weight: 300;
+    font-size: 1rem;
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-end
+}
+
+.secao1_lateral {
+    display: flex;
+    flex-direction: column;
+    font-family: var(--primeira-fonte);
+    margin-left: 4rem;
+    margin-top: 6rem;
+    width: 15rem;
+}
+
+.secao1_texto2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.secao1_texto2 h3 {
+    font-size: 3rem;
+    padding-right: 1rem;
+}
+
+.secao1_texto2 p {
+    font-size: 1rem;
+    display: flex;
+
+}
+
+.secao1_lateral img {
+    width: 16rem;
+    display: flex;
+    align-content: center;
+    margin: 4rem 0;
+}
+
+.secao1_texto3 h4 {
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.secao1_texto3 p {
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.secao2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10rem;
+    font-family: var(--primeira-fonte);
+    margin-right: 5rem;
+    margin-left: 5rem;
+}
+
+.secao2 h2 {
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 3.7rem;
+    margin: 4rem 0;
+}
+
+.secao2_conteudo {
+    display: flex;
+    flex-direction: row;
+}
+
+.secao2_texto1 {
+    margin: 2rem 0;
+
+}
+
+.secao2_texto2 {
+    margin: 2rem 0;
+}
+
+.secao2 h4 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 1.2rem 0;
+}
+
+.secao2 p {
+    font-size: 1rem;
+    font-weight: 300;
+    margin-bottom: 3rem;
+}
+
+.secao2 img {
+    padding: 0 1.5rem;
+    width:22rem;
+}
+
+.secao3{
+    margin: 0 5rem;
+    font-family: var(--primeira-fonte);
+    margin-top: 10rem;
+}
+
+.secao3 h1{
+    display: flex;
+    justify-content: center;
+    font-size: 3.7rem;
+    font-weight: 600;
+    margin-top: 4rem;
+}
+
+.secao3 h2{
+    display: flex;
+    justify-content: center;
+    font-size: 3.7rem;
+    font-size: 600;
+    margin-bottom: 4rem;
+}
+
+.secao3_conteudo{
+    display: flex;
+    flex-direction: row;
+}
+
+.secao3_parte1{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.secao3_img1{
+    width: 9.7rem;
+    margin-bottom: 0.75rem;
+}
+
+.secao3_img2{
+    width: 17.5rem;
+    
+}
+
+.secao3_img3{
+    width: 17.5rem;
+}
+
+.secao3_parte2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 7rem;
+}
+
+.secao3 h3{
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.secao3 p{
+    text-align: center;
+    margin: 2rem 0;
+    font-size: 1rem;
+}
+
+.secao3 a{
+    background-color: var(--segunda-cor);
+    color: var(--terceira-cor);
+    font-family: var(--primeira-fonte);
+    font-size: 1rem;
+    font-weight: 300;
+    text-decoration: none;
+    border: 0.1rem solid var(--segunda-cor);
+    padding: 0.75rem 1.75rem
+}
+
+.secao3 a:hover{
+    background-color: var(--terceira-cor);
+    color: var(--segunda-cor);
+    font-family: var(--primeira-fonte);
+    font-size: 1rem;
+    font-weight: 300;
+    text-decoration: none;
+    border: 0.1rem solid var(--segunda-cor);
+    padding: 0.75rem 1.75rem
+}
+
+.secao4{
+    font-family: var(--primeira-fonte);
+    margin-top: 10rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.secao4 h1{
+    font-size: 3.7rem;
+    font-weight: 600;
+    margin-bottom: 4rem;
+}
+
+.secao4_parte1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 4rem;
+}
+
+.secao4_parte1 img{
+    width: 31rem;
+}
+
+.secao4_titulos{
+    padding-top: 1.5rem;
+    font-size: 1rem;
+    width: 600;
+}
+
+.secao4_datas{
+    padding-top: 0.3rem;
+    font-size: 0.8rem;
+    width: 300;
+    color: var(--segunda-cor);
+
+}
+
+.secao4_parte2 img{
+    width: 56rem;
+}
+
+.secao5{
+    font-family: var(--primeira-fonte);
+    margin: 10rem;
+    margin-right: 5rem;
+    margin-left: 5rem;
+}
+
+.secao5_conteudo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.secao5 h1{
+    font-size: 3.7rem;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+}
+
+.secao5 h2{
+    font-size: 3.7rem;
+    font-weight: 600;
+    margin-bottom: 4rem;
+    display: flex;
+    justify-content: center;
+}
+
+.secao5_questoes{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-right: 4rem;
+}
+
+.secao5_questoes a{
+    text-decoration: none;
+    border-bottom: 0.1rem solid var(--quarta-cor);
+    padding: 1.8rem 0;
+    color: var(--segunda-cor);
+}
+
+.secao5_questao1{
+    border-top: 0.1rem solid var(--quarta-cor);
+    
+}
+
+.secao5 img{
+    width: 30.6rem;
+}
+
+.rodape{
+    background-color:  var(--primeira-cor);
+    font-family: var(--primeira-fonte);
+    display: flex;
+    flex-direction: column;
+    margin-top: 10rem;
+    padding: 5rem;
+    padding-bottom: 3rem;
+}
+
+.rodape_titulo{
+    font-size: 5rem;
+    width: 56rem;
+    font-weight: 600;
+    margin-bottom: 5rem;
+}
+
+.rodape_conteudo{
+    border-top: 0.1rem solid var(--segunda-cor);
+    padding: 4rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.rodape_conteudo h1{
+    font-size: 2rem;
+    margin-right: 8rem;
+}
+
+.rodape_links{
+    margin-bottom: 3rem;
+}
+
+.rodape_links a{
+    text-decoration: none;
+    color: var(--segunda-cor);
+    font-weight: 600;
+    font-size: 1rem;
+    padding-right: 2rem;
+}
+
+.rodape_contato{
+    display: flex;
+    flex-direction: row;  
+}
+
+.rodape_contato p{
+    padding-right: 3rem;
+}
+
+.rodape_email{
+    display: flex;
+    flex-direction: column;
+    padding-right: 6rem;
+    border-bottom: 0.1rem solid var(--segunda-cor);
+}
+
+.rodape_email p{
+    font-weight: 600;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+.rodape_email a{
+    text-decoration: none;
+    color: var(--segunda-cor);
+    font-size: 0.8rem;
+    padding-bottom: 1rem;
+}
+
+
+
+@media (max-width: 48rem) {
+
+    .secao1, .secao2_conteudo, .secao3_conteudo, .secao4_parte1, .secao4_parte2, .secao5_conteudo, .rodape_conteudo {
+        flex-direction: column;
+    }
+
+    .conteudo {
+        width: auto;
+    }
+}
