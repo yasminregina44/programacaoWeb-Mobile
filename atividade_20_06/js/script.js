@@ -28,7 +28,7 @@ function adicionarTarefa() {
         novaTarefa.classList.toggle('concluida')
     })
     novaTarefa.className = "tarefa"
-
+    localStorage.setItem("nomeTarefa",nomeTarefa);
     //Removendo Elementos
     //Criar botão excluir
     let botaoExcluir = document.createElement('button');
