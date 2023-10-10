@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.imgCapa {
+    background-image: url('./FotoCapa.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 800px;
+}
+
+.conteudoCapa{
+    padding: -400px 300px;
+}
