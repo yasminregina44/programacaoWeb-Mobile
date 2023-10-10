@@ -7,6 +7,7 @@ const Formulario = () => {
             <form>
                 <h2>Preencha os seus dados para a compra:</h2>
                 <CampoTexto label="Nome" placeholder="Digite o seu nome" />
+                <CampoTexto label="Sobrenome" placeholder="Digite o seu sobrenome" />
             </form>
             </section>
     );

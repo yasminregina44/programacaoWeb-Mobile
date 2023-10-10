@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+    padding-left: 40px;
+    padding-right: 100px;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+}
+
+.img {
+    width: 50px;
+    height: 32px;
+    padding: 0 5px;
+}
+
+.nomeLogo {
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.navBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 430px;
+    height: 24px;
+}
+
+.navBarIcons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 200px;
+    height: 41px;
+}
+
+header a{
+    text-decoration: none;
+    color: #000;
+}
