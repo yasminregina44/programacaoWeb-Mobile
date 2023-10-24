@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.div_titulo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.titul0_categorias {
+    color: #333;
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.texto_titulo {
+    color: #666;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 50px;
+}
+
+.cards_categorias {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.card_categoria {
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px;
+}
+
+.card_categoria img {
+    border-radius: 10px;
+}
+
+.card_categoria a {
+    padding-top: 20px;
+    text-decoration: none;
+    color: #333;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.imgCapa {
+    background-image: url('/public/assets/FotoCapa.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 720px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.conteudoCapa {
+    width: 643px;
+    height: 443px;
+    flex-shrink: 0;
+    margin-right: 58px;
+    border-radius: 10px;
+    background: #FFF3E3;
+    padding: 0px 40px;
+}
+
+.subtitulo {
+    color: #333;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 3px;
+    margin-bottom: 4px;
+    margin-top: 62px;
+}
+
+
+
+.texto {
+    color: #333;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    margin-bottom: 46px;
+}
+
+.botao {
+    text-decoration: none;
+    display: inline-flex;
+    padding: 25px 72px;
+    align-items: flex-start;
+    gap: 10px;
+    background: #B88E2F;
+    padding: 20px 0;
+    display: inline-flex;
+    padding: 25px 72px;
+    align-items: flex-start;
+    gap: 10px;
+    color: #FFF;
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}

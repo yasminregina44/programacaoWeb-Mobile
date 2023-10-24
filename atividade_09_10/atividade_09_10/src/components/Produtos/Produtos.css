@@ -1,8 +1,62 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins:wght@500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins:wght@400;500;600;700&display=swap');
 
 * {
     margin: 0;
     padding: 0;
+}
+
+.titulo_produtos {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.titul0_categorias {
+    color: #333;
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.texto_titulo {
+    color: #666;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 50px;
+}
+
+.cards_categorias {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.card_categoria {
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px;
+}
+
+.card_categoria img {
+    border-radius: 10px;
+}
+
+.card_categoria a {
+    padding-top: 20px;
+    text-decoration: none;
+    color: #333;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 }
 
 .imgCapa {
@@ -38,15 +92,7 @@
     margin-top: 62px;
 }
 
-.titulo_capa {
-    color: #B88E2F;
-    font-family: 'Poppins', sans-serif;
-    font-size: 52px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 65px;
-    margin-bottom: 17px;
-}
+
 
 .texto {
     color: #333;
@@ -56,7 +102,6 @@
     font-weight: 500;
     line-height: 24px;
     margin-bottom: 46px;
-    width: 530px;
 }
 
 .botao {
@@ -66,6 +111,11 @@
     align-items: flex-start;
     gap: 10px;
     background: #B88E2F;
+    padding: 20px 0;
+    display: inline-flex;
+    padding: 25px 72px;
+    align-items: flex-start;
+    gap: 10px;
     color: #FFF;
 
     font-family: 'Poppins', sans-serif;
