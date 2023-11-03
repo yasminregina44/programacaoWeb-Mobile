@@ -25,7 +25,7 @@
 
 .beneficio_titulo {
     color: #242424;
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     font-size: 25px;
     font-style: normal;
     font-weight: 600;
@@ -35,7 +35,7 @@
 
 .beneficio_descricao {
     color: var(--color-gray-3, #898989);
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 500;

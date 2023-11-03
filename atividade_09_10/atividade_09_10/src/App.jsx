@@ -4,6 +4,7 @@ import Categorias from './components/Categorias';
 import Produtos from './components/Produtos';
 import Inspiracao from './components/Inspiracao';
 import Beneficios from './components/Beneficios';
+import Footer from './components/Footer';
 
 const App = () => {
   return <div>
@@ -13,6 +14,7 @@ const App = () => {
       <Produtos/>
       <Inspiracao/>
       <Beneficios/>
+      <Footer/>
     </div>;
 };
 
