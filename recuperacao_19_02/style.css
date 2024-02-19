@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --background: #fffafa;
+    --preto: #140900;
+    --laranja: #FB710E;
+    --laranja-claro: #FCAC73;
+
+    --fonte: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: var(--background);
+    color: var(--preto);
+}
+
+#logo {
+    display: flex;
+    margin-right: 15rem;
+}
+
+#logo img {
+    width: 3.5rem;
+    height: 3.5rem;
+    color: var(--preto);
+    padding-right: 2rem;
+}
+
+#logo h1 {
+    font-size: 3rem;
+    font-family: var(--fonte);
+}
+
+.cabecalho {
+    display: flex;
+    padding: 2rem 4.25rem;
+    align-items: center;
+    background-color: var(--laranja);
+}
+
+.cabecalho_menu {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.cabecalho_menu ul {
+    list-style: none;
+    display: flex;
+}
+
+.cabecalho_menu a {
+    color: var(--preto);
+    font-family: var(--fonte);
+    font-size: 1.2rem;
+    text-decoration: none;
+    font-weight: 500;
+    padding-right: 1rem;
+}
+
+.cabecalho_menu li {
+    margin: 0 1rem;
+}
+
+.cabecalho_menu a:hover {
+    color: var(--preto);
+    font-family: var(--fonte);
+    font-size: 1.2rem;
+    text-decoration: none;
+    font-weight: 600;
+    padding-right: 1rem;
+}
+
+.secao_principal {
+    display: flex;
+    flex-direction: row;
+    font-family: var(--fonte);
+    margin: 1.5rem 0;
+    margin-left: 3.5rem;
+}
+
+.promocoes {
+    display: flex;
+    flex-direction: column;
+}
+
+.linha {
+    display: flex;
+    flex-direction: row;
+}
+
+.promocao {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--laranja-claro);
+    border-radius: 1rem;
+    margin: 1rem 1rem;
+}
+
+.promocao div {
+    display: flex;
+    flex-direction: row;
+}
+
+.promocao img {
+    display: flex;
+    align-content: center;
+    width: 12rem;
+    height: 6.5rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    border-radius: 0.5rem;
+}
+
+.promocao h1 {
+    margin: 1rem;
+    font-size: 1.25rem;
+    width: 170px;
+    color: var(--preto);
+}
+
+.promocao h6 {
+    margin: 0.25rem 0;
+    margin-left: 1rem;
+    font-weight: 500;
+    font-size: 0.75rem;
+}
+
+.promocao p {
+    margin: 0.25rem 0;
+    margin-left: 1rem;
+    font-weight: 500;
+}
+
+.promocao a {
+    margin: 1rem;
+    margin-left: 1rem;
+    text-decoration: none;
+    background-color: var(--background);
+    padding: 0.5rem 0.5rem;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    border: 2px solid var(--laranja);
+    border-radius: 0.5rem;
+    color: var(--preto);
+    font-weight: 600;
+}
+
+.promocao a:hover {
+    margin: 1rem;
+    margin-left: 1rem;
+    text-decoration: none;
+    background-color: var(--laranja);
+    padding: 0.5rem 0.5rem;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    border: 2px solid var(--laranja);
+    border-radius: 0.5rem;
+    color: var(--preto);
+    font-weight: 700;
+}
+
+.secoes {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+.cadastro {
+    margin: 2rem 4.5rem;
+    background-color: var(--laranja-claro);
+    border-radius: 1rem;
+    font-family: var(--fonte);
+}
+
+.cadastro h1 {
+    display: flex;
+    justify-content: center;
+    margin: 1rem 1rem;
+    font-size: 1.75rem;
+    font-weight: 700;
+}
+
+.cadastro h3 {
+    margin: 0 1rem;
+    margin-top: 0.5rem;
+    font-size: 1.15rem;
+    font-weight: 500;
+}
+
+.cadastro input[type="text"] {
+    margin: 0 1rem;
+    font-size: 1rem;
+    font-weight: 500;
+    background-color: var(--background);
+    border: none;
+    padding: 0.25rem;
+    padding-left: 10px;
+    font-family: var(--fonte);
+    border-radius: 5px;
+    width: 22rem;
+}
+
+.cadastro input:focus {
+    outline: none;
+}
+
+.cadastro_colunas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 2rem;
+}
+
+
+.campo_texto[type="text"] {
+    display: flex;
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+    width: 200px;
+    padding-right: 20px;
+}
+
+.campo_texto:focus {
+    outline: none;
+}
+
+.secao_lateral {
+    margin: 2rem 2rem;
+    font-family: var(--fonte);
+}
+
+.secao_lateral h1 {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 1rem;
+    font-size: 1.5rem;
+    width: 15rem;
+    color: var(--preto);
+}
+
+.secao_lateral a {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    color: var(--preto);
+    font-weight: 500;
+}
+
+.secao_lateral a:hover {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    color: var(--preto);
+    font-weight: 700;
+}
+
+.rodape {
+    background-color: var(--laranja);
+    padding: 2rem 4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: var(--fonte);
+}
+
+.rodape h3 {
+    margin-top: 1rem;
+}
+
+.rodape p {
+    font-weight: 500;
+}
+
+.redes_sociais {
+    display: flex;
+    flex-direction: column;
+}
+
+.redes_sociais img {
+    margin-top: 1rem;
+    width: 2rem;
+    height: 2rem;
+}
+
+.redes_sociais a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+    color: var(--preto);
+}
+
+.redes_sociais p {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1rem;
+}
+
+.cadastro a {
+    margin: 1rem;
+    margin-left: 1rem;
+    text-decoration: none;
+    background-color: var(--background);
+    padding: 0.5rem 0.5rem;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    border: 2px solid var(--laranja);
+    border-radius: 0.5rem;
+    color: var(--preto);
+    font-weight: 600;
+
+}
+
+.cadastro a:hover {
+    margin: 1rem;
+    margin-left: 1rem;
+    text-decoration: none;
+    background-color: var(--laranja);
+    padding: 0.5rem 0.5rem;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    border: 2px solid var(--laranja);
+    border-radius: 0.5rem;
+    color: var(--preto);
+    font-weight: 700;
+}
+
+.modo {
+    margin: 1rem;
+    margin-left: 1rem;
+    text-decoration: none;
+    background-color: var(--background);
+    padding: 0.5rem 0.5rem;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    border: 2px solid var(--laranja);
+    border-radius: 0.5rem;
+    color: var(--preto);
+    font-weight: 600;
+    font-family: var(--fonte);
+}
+
+.modo:hover {
+    margin: 1rem;
+    margin-left: 1rem;
+    text-decoration: none;
+    background-color: var(--laranja);
+    padding: 0.5rem 0.5rem;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    border: 2px solid var(--background);
+    border-radius: 0.5rem;
+    color: var(--preto);
+    font-weight: 700;
+    font-family: var(--fonte);
+}
+
+
+
+@media (max-width: 768px) {
+    
+}

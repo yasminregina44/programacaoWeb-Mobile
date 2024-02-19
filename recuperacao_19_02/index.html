@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mama's Pizzaria</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+    <header class="cabecalho">
+        <div id="logo">
+            <img src="./assets/logo.png" alt="Logo - Pedaço de Pizza">
+            <h1>Mama's Pizzaria</h1>
+        </div>
+        <nav class="cabecalho_menu">
+            <ul>
+                <li><a class="cabecalho_menu" href="#">Promoções</a></li>
+                <li><a class="cabecalho_menu" href="#">Sobre</a></li>
+            </ul>
+        </nav>
+        <a class="modo" href="#">Mudar Modo</a>
+    </header>
+
+    <main>
+        <div class="secoes">
+            <section class="secao_principal">
+                <div class="promocoes">
+                    <div class="linha">
+                        <div class="promocao">
+                            <div>
+                                <img src="./assets/portuguesa.jpeg">
+                                <h1 class="titulo_pizza">Terça da Pizza Portuguesa</h1>
+                            </div>
+                            <h6>Promoção válida até 25/06/2024</h6>
+                            <p>A pizza pode ser de qualquer tamanho e se quiser borda haverá acréscimo no valor.</p>
+                            <a href="#">Saiba mais</a>
+                        </div>
+                        <div class="promocao">
+                            <div>
+                                <img src="./assets/calabresa.jpg">
+                                <h1>Quarta da Pizza de Calabresa</h1>
+                            </div>
+                            <h6>Promoção válida até 26/06/2024</h6>
+                            <p>A pizza pode ser de qualquer tamanho e se quiser borda haverá acréscimo no valor.</p>
+                            <a href="#">Saiba mais</a>
+                        </div>
+                    </div>
+                    <div class="linha">
+                        <div class="promocao">
+                            <div>
+                                <img src="./assets/margherita.jfif">
+                                <h1>Quinta da Pizza Margherita</h1>
+                            </div>
+                            <h6>Promoção válida até 27/06/2024</h6>
+                            <p>A pizza pode ser de qualquer tamanho e se quiser borda haverá acréscimo no valor.</p>
+                            <a href="#">Saiba mais</a>
+                        </div>
+                        <div class="promocao">
+                            <div>
+                                <img src="./assets/doce.jfif">
+                                <h1>Sexta de Pizza Doce</h1>
+                            </div>
+                            <h6>Promoção válida até 28/06/2024</h6>
+                            <p>A pizza pode ser de qualquer tamanho e se quiser borda haverá acréscimo no valor.</p>
+                            <a href="#">Saiba mais</a>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="cadastro">
+                <h1>Cadastre-se aqui</h1>
+                <div class="cadastro_colunas">
+                    <div>
+                        <h3>Nome*</h3>
+                        <input id="nome" type="text" placeholder="Digite seu nome">
+                        <h3>Email*</h3>
+                        <input type="text" placeholder="Digite seu email">
+                        <h3>Telefone*</h3>
+                        <input type="text" placeholder="Digite seu telefone">
+                    </div>
+                    <div>
+                        <h3>CEP*</h3>
+                        <input type="text" placeholder="Digite seu CEP">
+                        <h3>Rua</h3>
+                        <input type="text">
+                        <h3>Bairro</h3>
+                        <input type="text">
+                        <h3>Cidade</h3>
+                        <input type="text">
+                        <h3>Estado</h3>
+                        <input type="text">
+                    </div>
+                </div>
+                <a onclick="validarNome()">Enviar Formulário</a>
+            </section>
+        </div>
+        <section class="secao_lateral">
+            <h1>Sabores de Pizza Mais Pedidos</h1>
+            <a href="#">Pizza de Calabresa</a>
+            <a href="#">Pizza Portuguesa</a>
+            <a href="#">Pizza Margherita</a>
+            <a href="#">Pizza de Frango com Catupiry</a>
+            <a href="#">Pizza de Muçarela</a>
+        </section>
+    </main>
+    <footer class="rodape">
+        <div>
+            <h3>Telefone para contato</h3>
+            <p>(47) 9 9999-9999</p>
+            <h3>Endereço</h3>
+            <p>R. Joaquim Francisco de Paulo, 612 - Água Verde, Jaraguá do Sul - SC, 89252-020</p>
+        </div>
+        <div class="redes_sociais">
+            <h3>Siga-nos no:</h3>
+            <a href="#"><img src="./assets/instagram.png" alt="Instagram">
+                <p>Instagram</p>
+            </a>
+            <a href="#"><img src="./assets/facebook.png" alt="Facebook">
+                <p>Facebook</p>
+            </a>
+            <a href="#"><img src="./assets/tiktok.png" alt="TikTok">
+                <p>TikTok</p>
+            </a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
